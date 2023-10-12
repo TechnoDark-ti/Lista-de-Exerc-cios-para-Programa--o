@@ -15,6 +15,7 @@
 - Python
 - Lua
 - PHP
+- SQL
 
 ## Como Contribuir
 Agradecemos o interesse em contribuir para esta iniciativa. Existem várias maneiras de se envolver:
@@ -31,4 +32,4 @@ Agradecemos o interesse em contribuir para esta iniciativa. Existem várias mane
 * LinkedIn: márcio-moda
 
 ## Licença
-Este repositório é distribuído sob a  Licença GPL v.4. Consulte o arquivo LICENSE para obter detalhes.
+Este repositório é distribuído sob a  Licença GPL v.3. Consulte o arquivo LICENSE para obter detalhes.

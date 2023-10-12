@@ -66,6 +66,11 @@ class Elevador{
             if(ligado && totalAndar <= 4){
                 setandarAtual(totalAndar++);
             }
+            else if(ligado && totalAndar >=4){
+                cout << "Andar máximo, por favor desca!";
+            }else{
+                cout << "O elevador está desligado ou com problemas técnicos";
+            }
             
         }
         void descer(){
