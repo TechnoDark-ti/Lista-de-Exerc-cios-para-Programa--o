@@ -1,10 +1,5 @@
 # created by virtualenv automatically
 /.vscode
 
-myenv/bin
-myenv/lib
-
-libmath.cpython-310.pyc
-pyvenv.cfg
 myenv/src/__pycache__/libenty.cpython-310.pyc
 c++/output/main
