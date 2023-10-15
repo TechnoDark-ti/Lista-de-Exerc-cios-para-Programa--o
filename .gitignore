@@ -4,6 +4,7 @@
 myenv/bin
 myenv/lib
 
+src/__pycache__/
 libmath.cpython-310.pyc
 pyvenv.cfg
 myenv/src/__pycache__/libenty.cpython-310.pyc
