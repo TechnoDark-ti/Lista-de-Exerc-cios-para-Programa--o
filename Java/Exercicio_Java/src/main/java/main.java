@@ -3,10 +3,13 @@
  * @author DarkCells - Márcio moda
  */
 
-package com.darkcells.exercicio_java;
+import com.darkcells.QuestoesIFPA.*;
+import com.darkcells.QuestoesIFPA.*;
+
 
 public class main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        
     }
 }
