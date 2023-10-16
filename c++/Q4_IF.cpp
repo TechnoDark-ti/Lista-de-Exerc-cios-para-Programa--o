@@ -11,6 +11,5 @@ void Q4_If(string nome, string endereco, int telefone){
 	cout << "Telefone para contato: ";
 	cin >> telefone;
 
-
 	cout << "Nome: " << nome << "\nendereço: " << endereco << "\ntelefone: " << telefone;
 }

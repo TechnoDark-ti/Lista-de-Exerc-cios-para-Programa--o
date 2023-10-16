@@ -2,6 +2,6 @@
 
 using namespace std;
 
-int Q2_IF(int a, int b){
-	return (a, b);
+void Q2_IF(int a, int b){
+	cout << "Os valores são respectivamente: " << a << " e " << b;
 }
