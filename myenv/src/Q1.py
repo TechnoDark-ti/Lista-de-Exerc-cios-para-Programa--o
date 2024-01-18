@@ -8,15 +8,26 @@ class Pessoa(ABC):
         self.altura = altura
         self.peso = peso
 
-    def exibirInformacoes(self):
-        print(f"Nome: {self.nome}, Data de Nascimento: {self.dataNascimento}, Altura: {self.altura}, Peso: {self.peso}")
+    def toString(self):
+        print(f'''
+            +-----------------------------------------+
+            |       DADOS DO JOGADOR          |
+            +-----------------------------------------+
+             Nome do Jogador: {self.getNome()}    
+             Posicao: {self.getPosicao()}            
+             Altura: {self.getAltura()}               
+             Peso: {self.getPeso()}               
+             Data de Nascimento:{self.getDatanascimento()}
+             Nacionalidade: {self.getNacionalidade()}     
+            +-----------------------------------------+
+            ''')
 
 class Jogador(Pessoa):
     def __init__(self,nome, dataNascimento, altura, peso):
         super().__init__(nome, dataNascimento, altura, peso)
         
-    def exibirInformacoes(self):
-        return super().exibirInformacoes()
+    def toString(self):
+        return super().toString()
 
     def calcular_tempo(self):
         data_atual =  datetime.datetime.now()

@@ -17,8 +17,3 @@ class ingressosVIP(Ingresso):
         valor_vip = self.valor *2
         print(f"Ingreso VIP --- valor: {valor_vip}")
 
-ingressoPobre = Ingresso(30)
-ingressoPobre.imprimirValor()
-
-ingressoRico = ingressosVIP(100)
-ingressoRico.imprimirValor()

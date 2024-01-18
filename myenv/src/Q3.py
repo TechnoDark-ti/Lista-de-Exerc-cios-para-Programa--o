@@ -1,3 +1,11 @@
+from tqdm import tqdm
+import os, time
+
+def animation():
+    for i in tqdm(range(3)):
+        time.sleep(0.5)
+        os.system('clear') or None
+
 class Elevador:
     def __init__(self):
         self.__andarAtual = 0
@@ -34,8 +42,8 @@ class Elevador:
             self.__andarAtual = 0
             self.__andarLimite = 4
             self.__ligado = True
+            animation()
             print("O elevador ligou!")
-
         else:
             print("O elevador já está ligado!")
 
@@ -63,4 +71,23 @@ class Elevador:
         if self.__ligado and self.__andarAtual < self.__andarLimite:
             self.setAndarAtual(self.__andarAtual - 1)
         else:
-            print("Térreo, por favor suba!")    
+            print("Térreo, por favor suba!")
+
+    def toString(self):
+        print('Olá...')
+        time.sleep(1)
+        os.system('clear') or None
+        print(f'''
+    --------------------------------------------------
+            Elevador do Prédio de tal
+    --------------------------------------------------
+                STATUS ATUAL:
+    O Elevador está: {}
+    Total de Andares: {}
+    Capacidade Atual: {}
+    Capacidade Permitida: {}
+    neste momento o elevador no: {}° Andar
+    --------------------------------------------------
+            ''')
+        print('Voltando para o menu ...')
+        time.sleep(4)
